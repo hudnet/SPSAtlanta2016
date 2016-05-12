@@ -1,6 +1,6 @@
 Use the following instructions to setup all code required to demonstrate Highcharts within SharePoint:
 
-1. Create a new custom list named Usage. Add a column of type ìnumberî with a title of Number.
+1. Create a new custom list named Usage. Add a column of type ‚Äúnumber‚Äù with a title of Number.
 2. Add data to the Usage list as needed. One option would be to create organization departments using the Title column and then enter whole numbers in the Number column.
-3. Use SharePoint Designer and navigate to the _catalogs/masterpage folder. Create a folder named ìSPS.î In that folder create three additional folders named HTML, Scripts, and Styles. Copy each of the files included in GitHub to the corresponding folder.
+3. Use SharePoint Designer and navigate to the _catalogs/masterpage folder. Create a folder named ‚ÄúSPS.‚Äù Create an additional folder named "Usage." In that folder create three additional folders named HTML, Scripts, and Styles. Copy each of the files included in GitHub to the corresponding folder.
 4. Create a new page named Usage.aspx. On that page add a Content Editor web part. Open the web part for editing and enter the path to the html file in the content link property box. Save the page and the chart should display. If it does not it is usually a path related problem. Be sure to check the paths to the JavaScript files in the script sources property at the bottom of the html file.
